@@ -1,0 +1,16 @@
+type: function
+source: filter
+package: dplyr
+name: filtrar
+variables:
+  ".data":
+    desc: Un a table tipo tbl()
+  "...":
+    desc: Condiciones que tienen la observacion tiene que tener para que sea conservada
+  ".preserve":
+    trans: ".preservar"
+    desc: Cuando es TRUE, la estructura de la agrupacion es preservada
+help:
+  name: filtrar
+  title: Reduce valores multiples a un valor
+  description: Usualmente se usa con 'group_by()`. El resultado sera una linea por cada grupo.

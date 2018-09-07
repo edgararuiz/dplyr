@@ -1,0 +1,13 @@
+type: function
+source: select
+package: dplyr
+name: seleccionar
+variables:
+  ".data":
+    desc: Un a table tipo tbl()
+  "...":
+    desc: Valores separados por coma de las variables que se quedan or dejan la tabla
+help:
+  name: seleccionar
+  title: Selecciona variables por nombre
+  description: Selecciona variables de un tbl().

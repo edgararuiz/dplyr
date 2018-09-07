@@ -1,0 +1,13 @@
+type: function
+source: mutate
+package: dplyr
+name: mudar
+variables:
+  ".data":
+    desc: Un a table tipo tbl()
+  "...":
+    desc: Pares de nombres y valores
+help:
+  name: mudar
+  title: Crea o transforma variables
+  description: Agrega nuevas variables y preserva las variable existentes.

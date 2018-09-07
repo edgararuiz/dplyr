@@ -19,6 +19,7 @@
     )
     packageStartupMessage(rule())
   })
+  datalang::on_attach("dplyr")
 }
 
 .onDetach <- function(libpath) {

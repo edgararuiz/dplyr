@@ -1,0 +1,13 @@
+type: function
+source: arrange
+package: dplyr
+name: arreglar
+variables:
+  ".data":
+    desc: Un a table tipo tbl()
+  "...":
+    desc: Valores separados por coma de las variables or expresiones en cual ordernar la tabla
+help:
+  name: arreglar
+  title: Pone una table en cierto order
+  description: Ordena las lineas de una tabla de datos basada en una expresion basada en sus variables

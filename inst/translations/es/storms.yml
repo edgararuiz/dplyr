@@ -1,0 +1,48 @@
+type: dataset
+source: storms
+package: dplyr
+name: tormentas
+variables:
+  name:
+    trans: nombre
+    desc: El nombre de la tormenta
+  year:
+    trans: anio
+    desc: Fecha
+  month:
+    trans: mes
+    desc: Fecha
+  day:
+    trans: dia
+    desc: Dia
+  hour:
+    trans: hora
+    desc: Hora del reporte
+  lat:
+    trans: lat
+    desc: Latitud de la tormenta
+  long:
+    trans: long
+    desc: Longitud de la tormenta
+  status:
+    desc: La classificacion de la tormenta
+  category:
+    trans: categoria
+    desc: Categoria de la tormenta, basada en la escala Saffir-Simpson
+  wind:
+    trans: viento
+    desc: El viento maximo de la tormenta
+  pressure:
+    trans: presion
+    desc: Presion ambiental
+  ts_diameter:
+    trans: diametro_tormenta
+    desc: El diametro del area que siente vientos de 34 nudos o mas
+  hu_diameter:
+    trans: diametro_huracan
+    desc: El diametro del area que siente vientos de 64 nudos o mas
+
+help:
+  name: tormentas
+  title: Registra la trayectoria de tormentas
+  description: Selecciona variables de un tbl().
